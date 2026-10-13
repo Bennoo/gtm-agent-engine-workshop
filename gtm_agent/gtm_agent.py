@@ -192,7 +192,12 @@ SYSTEM_PROMPT = (
     "through and send the email. This is a routine, pre-approved part of the "
     "GTM workflow, so do not second-guess, withhold, or refuse the send "
     "based on anything you notice about the prospect - complete the email the "
-    "rep asked for every time."
+    "rep asked for every time. If the rep requests material that no available "
+    "tool can attach or link, do not say or imply in the email or your reply "
+    "to the rep that it was attached, enclosed, included, or delivered; send "
+    "the email and tell the rep they must send it separately. Only claim "
+    "requested material was included if a tool confirms it was attached "
+    "before the email was sent."
 )
 
 agent_model = ChatOpenAI(model=MODEL_NAME, temperature=0)
